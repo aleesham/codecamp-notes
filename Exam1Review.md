@@ -1,19 +1,34 @@
 # Exam 1 Review
 
 ## Data and Variables
-* Explain what a value is: a value is an object that a program manipulates
-* Explain what a data type is: a data type is a class that a value can be such as integer, float, string, list, boolean.
+* Explain what a value is: 
+
+a value is an object that a program manipulates
+
+* Explain what a data type is: 
+
+a data type is a class that a value can be such as integer, float, string, list, boolean.
+
 * Give examples of the three data types int, float, and string:
     * `int` examples: `7`,`-1`
     * `float` examples: `5.0`, `3.1415`
     * `str` examples: `"Hello world"`, `"a"`
+
 * Use the type conversion functions `int`, `float`, and `str`:
     * `int("14")`
     * `float("15.333333")`
     * `str(1245.34234)`
-* Explain what a variable is: a variable is a box that holds one value
-* Assign values to a variable: `a=5`, `name = "Aleesa"`
-* Calculate the value of expressions using order of operations: PEMDAS
+
+* Explain what a variable is: 
+a variable is a box that holds one value
+
+* Assign values to a variable: 
+
+`a=5`, `name = "Aleesa"`
+
+* Calculate the value of expressions using order of operations: 
+
+PEMDAS
 
  
 ## Debugging 
