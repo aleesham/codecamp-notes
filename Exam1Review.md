@@ -1,7 +1,7 @@
 # Exam 1 Review
 
 ## Data and Variables
-* Explain what a value is: a value is an object that a program manipulates
+* Explain what a value is: a value is an object that a program manipulates. A value is a specific piece of data.
 
 * Explain what a data type is: a data type is a class that a value can be such as integer, float, string, list, boolean.
 
@@ -32,8 +32,9 @@
 
 ## Modules
 * Explain the keyword import and what it is used for:
-* Explain what a module is:
-* Explain the two steps needed to use a module:
+* Explain what a module is: a module is a file containing Python definitions and statements intended for us in other Python Programs
+* Explain the two steps needed to use a module: we need to import the module, and use the dot notation to use something inside the module. "In the module `name_of_module`, access the Python element called `object_in_module`."
+<!--- Ask about this --->
 * Explain the difference between a function that is part of module and a function that is part of Python (such as print):
 * List the three modules introduced in "Think Python" and describe what each might be used for:
 * Explain where you might go to find information about a module:
@@ -45,7 +46,10 @@
 * Write a for loop that uses a list literal, such as [1, 2, 3, 4]:
 * Write a for loop that uses the iterator variable in the loop body:
 * Write a for loop that uses a list variable:
-* Use the range function to generate lists of integers:
+* Use the range function to generate lists of integers: 
+    * `range(5)` is the list `[0,1,2,3,4]`
+    * `range(2,15,3)` is the list `[2,5,8,11,14]`
+    * `range(10,4,-2)` is the list `[10,8,6]`
 * Use the range function within a list definition:
 * Create turtle objects:
 * Use common turtle methods including left, forward:
@@ -56,25 +60,40 @@
 
 * Write a function with many parameters:
 ```
-def compute_hypervolume_4Dcube(length , width, height, fourth_dimension)
+def compute_hypervolume_4Dcube(length , width, height, fourth_dimension):
     hypervolume = length*width*height*fourth_dimension
     return hypervolume
 ```
-<---! Ask about this --->
+<!--- Ask about this --->
 
 * Explain what a return statement does: it causes the function to return a value and also returns the flow of control back to the place in the program where the function was made.
+
 * Describe what is scope and explain it with an example:
 * Explain what is shadowing:
+
 * Implement a problem that requires the accumulator style, such as adding up a list of numbers:
+```
+    def sumTo(n):
+        accumulated_total=0
+        for i in range(n+1):
+            accumulated_total += i
+        return accumulate_total
+```
+
 * Write a program that solves a problem using multiple functions:
+
 * Explain why programming style is important:
-* Explain why we use functions:
+* Explain why we use functions: 
 
 
 ## Conditionals
-* Describe what is a boolean:
-* Describe what are logical operators:
+* Describe what is a boolean: A boolean is a data type. A boolean value can only take on two values: `True` or `False`. Booleans are used in logical statements or boolean arithmetic.
+* Describe what are logical operators: There are three logical operators: `and`,`or`, and `not`. These have the same meanings as in the English language. For example, 
+    * `x>0 and x<10` is equivalent to saying that "x is greather than zero and x is less than ten." 
 * Describe the order of precedence with logical operators:
+    PEMDAS-NAR
 * Write an if statement with an else clause:
 * Write a (nested) if statement with an elif clause:
+
+<!--- Ask about this--->
 * Reduce a boolean function to a boolean expression:
