@@ -1,13 +1,9 @@
 # Exam 1 Review
 
 ## Data and Variables
-* Explain what a value is: 
+* Explain what a value is: a value is an object that a program manipulates
 
-  a value is an object that a program manipulates
-
-* Explain what a data type is: 
-
-  a data type is a class that a value can be such as integer, float, string, list, boolean.
+* Explain what a data type is: a data type is a class that a value can be such as integer, float, string, list, boolean.
 
 * Give examples of the three data types int, float, and string:
     * `int` examples: `7`,`-1`
@@ -19,16 +15,11 @@
     * `float("15.333333")`
     * `str(1245.34234)`
 
-* Explain what a variable is: 
-  a variable is a box that holds one value
+* Explain what a variable is: a variable is a box that holds one value
 
-* Assign values to a variable: 
+* Assign values to a variable: `a=5`, `name = "Aleesa"`
 
-`a=5`, `name = "Aleesa"`
-
-* Calculate the value of expressions using order of operations: 
-
-  PEMDAS
+* Calculate the value of expressions using order of operations: PEMDAS
 
  
 ## Debugging 
@@ -49,7 +40,7 @@
 
 
 ## Loops
-* Explain how to use for loop syntax with lists:
+* Explain how to use for loop syntax with lists:`for list_item in list1`
 * Explain the role of a loop iterator variable:
 * Write a for loop that uses a list literal, such as [1, 2, 3, 4]:
 * Write a for loop that uses the iterator variable in the loop body:
@@ -61,9 +52,17 @@
 
 
 ## Functions
-* Explain what is a function:
+* Explain what is a function: a function is a named sequence of statements that belong together. They are used to organize problems into chunks that match how we think about the solution to the problem. 
+
 * Write a function with many parameters:
-* Explain what a return statement does:
+```
+def compute_hypervolume_4Dcube(length , width, height, fourth_dimension)
+    hypervolume = length*width*height*fourth_dimension
+    return hypervolume
+```
+<---! Ask about this --->
+
+* Explain what a return statement does: it causes the function to return a value and also returns the flow of control back to the place in the program where the function was made.
 * Describe what is scope and explain it with an example:
 * Explain what is shadowing:
 * Implement a problem that requires the accumulator style, such as adding up a list of numbers:
