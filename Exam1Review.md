@@ -3,11 +3,11 @@
 ## Data and Variables
 * Explain what a value is: 
 
-a value is an object that a program manipulates
+  a value is an object that a program manipulates
 
 * Explain what a data type is: 
 
-a data type is a class that a value can be such as integer, float, string, list, boolean.
+  a data type is a class that a value can be such as integer, float, string, list, boolean.
 
 * Give examples of the three data types int, float, and string:
     * `int` examples: `7`,`-1`
@@ -20,7 +20,7 @@ a data type is a class that a value can be such as integer, float, string, list,
     * `str(1245.34234)`
 
 * Explain what a variable is: 
-a variable is a box that holds one value
+  a variable is a box that holds one value
 
 * Assign values to a variable: 
 
@@ -28,7 +28,7 @@ a variable is a box that holds one value
 
 * Calculate the value of expressions using order of operations: 
 
-PEMDAS
+  PEMDAS
 
  
 ## Debugging 
