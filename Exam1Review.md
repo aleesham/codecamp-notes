@@ -17,7 +17,7 @@
 
 * Explain what a variable is: a variable is a box that holds one value
 
-* Assign values to a variable: `a=5`, `name = "Aleesa"`
+* Assign values to a variable: `a=5`, `name = "Aleesha"`
 
 * Calculate the value of expressions using order of operations: PEMDAS
 
@@ -55,7 +55,7 @@
     * `range(5)` is the list `[0,1,2,3,4]`
     * `range(2,15,3)` is the list `[2,5,8,11,14]`
     * `range(10,4,-2)` is the list `[10,8,6]`
-* Use the range function within a list definition:
+* Use the range function within a loop definition:
 * Create turtle objects:
 * Use common turtle methods including left, forward:
 
@@ -87,6 +87,7 @@ def compute_hypervolume_4Dcube(length , width, height, fourth_dimension):
 * Write a program that solves a problem using multiple functions:
 
 * Explain why programming style is important:
+
 * Explain why we use functions: 
 
 
