@@ -24,16 +24,21 @@
  
 ## Debugging 
 * Describe how to debug programs using print and comments:
-* Explain the three common error types: syntax error, runtime error, semantic error:
+* Explain the three common error types (in all of computer programming): syntax error, runtime error, semantic (logical) error
+    * Syntax: misusing :,0, or other symbols.
+    * Runtime: these errors occur when the code is running. Runtime errors generally happen when a user is using it. 
+    * Semantic: forgetting something logically; there is no syntax error, but it gives the wrong answer. These errors are genearlly the hardest to find.
 * Give examples of each of the three common error types:
 * Explain some best practices to avoid errors and debugging:
-* Explain how each of the following errors may occur, with examples: `TypeError`, `ParseError`, `NameError`:
+* Explain how each of the following (Python) errors may occur, with examples: `TypeError`, `ParseError`, `NameError`:
+    * `TypeError`: mixing data types, such as adding a string and an int. This is usually a runtime error.
+    * `NameError`: have not defined a variable that your using, usually means that you misspelled it. This is closest to a syntax errors. 
 
 
 ## Modules
 * Explain the keyword import and what it is used for:
-* Explain what a module is: a module is a file containing Python definitions and statements intended for us in other Python Programs
-* Explain the two steps needed to use a module: we need to import the module, and use the dot notation to use something inside the module. "In the module `name_of_module`, access the Python element called `object_in_module`."
+* Explain what a module is: a module is a file or set of files containing Python definitions and statements that someone else wrote.
+* Explain the two steps needed to use a module: You need to install the module onto your machine (this is only necessary once). We then need to import the module into our script. Note that we have to use the dot notation to use something inside the module.
 <!--- Ask about this --->
 * Explain the difference between a function that is part of module and a function that is part of Python (such as print):
 * List the three modules introduced in "Think Python" and describe what each might be used for:
@@ -64,7 +69,6 @@ def compute_hypervolume_4Dcube(length , width, height, fourth_dimension):
     hypervolume = length*width*height*fourth_dimension
     return hypervolume
 ```
-<!--- Ask about this --->
 
 * Explain what a return statement does: it causes the function to return a value and also returns the flow of control back to the place in the program where the function was made.
 
