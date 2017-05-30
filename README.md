@@ -23,3 +23,6 @@ A function can look at global variables, but a program cannot look at variables 
 
 Functions also cannot change global variables. Functions may only change local variables.
 
+## Classes
+
+- Encapsulation: the technique of "bundling" related data and variables. Data: variable, member variables, instance variables. Behaviors: member functions, methods. 
