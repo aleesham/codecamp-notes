@@ -1,0 +1,1 @@
+This repository holds the notes from Immersive CodeCamp Summer 2017.
