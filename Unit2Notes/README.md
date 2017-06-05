@@ -2,16 +2,21 @@
 
 # __Lesson 1__
 ### __HTML__
-- Identify the main type of content on the WWW.
-<!--- I don't know what goes in here. -->
-- Know what HTML stands for.
-<!--- I don't know what goes in here. -->
+- Identify the main type of content on the W.W.W.  
+HTML is the main document type of the web.
+
+- Know what HTML stands for.  
+HyperText Markup Language
+
 - Describe the request/respone flow defined by HTTP.
-<!--- I don't know what goes in here. -->
+<!-- I don't know what goes in here. -->
+
 - Describe the components of HTML tag structure.
-<!--- I don't know what goes in here. -->
+<!-- I don't know what goes in here. -->
+
 - Describe what an HTML element is, and how an element is related to a tag.
-<!--- I don't know what goes in here. -->
+<!-- I don't know what goes in here. -->
+
 - Name, describe the purpose of, and use common HTML tags:  
     - `<b>`: This is the bold tag, which boldfaces its contents.
     - `<em>`: This is the emphasis or italize tag, which italicizes its contents.
@@ -20,41 +25,89 @@
     - `<br>`: This is the inline line-break tag. It is a void tag. 
     - `<p>`: This is the paragraph tag. It is like a line-break tag, however it is a block tag. You can imagine this tag creates an invisible box around its contents.
     - `<span>` 
-    <!--- I don't know what goes in here. -->
+    <!-- I don't know what goes in here. -->
     - `<div>`
-    <!--- I don't know what goes in here. -->
+    <!-- I don't know what goes in here. -->
     - `<form>`
-    <!--- I don't know what goes in here. -->
+    <!-- I don't know what goes in here. -->
+
 - Define HTML attributes and how they are used.
+<!-- I don't know what goes in here. -->
+
 - Describe how whitespace in HTML documents affects rendering.
+<!-- I don't know what goes in here. -->
+
 - Describe inline and block display; for common elements identify their default display.
+<!-- I don't know what goes in here. -->
+
 - Describe HTML document structure and associated elements:
     - doctype
+    <!-- I don't know what goes here. --> 
     - `<html>`
+    <!-- I don't know what goes here. --> 
     - `<head>`
+    <!-- I don't know what goes here. --> 
     - `<body>`
+    <!-- I don't know what goes here. --> 
     - `<title>`
+    <!-- I don't know what goes here. --> 
+
 - Create a properly-structured document head.
+```{html}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contents</title>
+    </head>
+
+    <body>
+        <!-- Add your body here -->
+    </body>
+</html>
+```
 
 ### __GIT__
 - Describe the main functionality provided by a version control system (VCS).
+<!-- I don't know what goes here. --> 
 - Describe the practical applications of this functionality:
     - revision
+    <!-- I don't know what goes here. --> 
     - history
+    <!-- I don't know what goes here. --> 
     - collaboration 
+    <!-- I don't know what goes here. --> 
     - backup
+    <!-- I don't know what goes here. --> 
 - Explain what a repository is.
-- Explain what a commit is.
+<!-- I don't know what goes here. --> 
+- Explain what a commit is. 
+<!-- I don't know what goes here. --> 
 - Describe the basic commit flow and commands:
     - status
+    <!-- I don't know what goes here. --> 
     - add
+    <!-- I don't know what goes here. --> 
     - commit
+    <!-- I don't know what goes here. --> 
     - log
+    <!-- I don't know what goes here. --> 
 - Initialize a new Git repository.
+<!-- I don't know what goes here. --> 
 - Commit to a local repository.
+<!-- I don't know what goes here. --> 
 - Clone a project from a remote Git repository.
+<!-- I don't know what goes here. --> 
 - Explain the two Git file status: tracked and untracked.
+<!-- I don't know what goes here. --> 
 - Explain what types of changes should be within a commit.
+<!-- I don't know what goes here. --> 
+
+
+
+
+
+
+<!--
 #
 # __Lesson 2__ 
 ### __HTML__
@@ -204,3 +257,4 @@ _Coming Soon_
 #
 # __Lesson 14__
 _Coming Soon_
+-->
